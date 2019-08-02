@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { DataService } from '../data.service';
-import { ContactData } from '../contact-data.service';
 
 @Component({
   selector: 'app-home',
