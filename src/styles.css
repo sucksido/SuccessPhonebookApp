@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(238, 238, 238);
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+h1 {font: x-large verdana, sans-serif;
+  color:#000;
+  border-bottom: thin black solid;}
+
+table {margin: 0;border:2}
+
+p {margin: 0em 0.5em;
+ text-indent: 1em;
+ color: #333333;}

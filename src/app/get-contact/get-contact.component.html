@@ -1,0 +1,30 @@
+<div align='center'><h1>List of Contacts</h1></div>
+
+
+<table class ="table table-striped" >
+  <tr *ngFor="let c of contacts">
+    <td>
+      {{c.id}}
+    </td>
+    <td>
+      {{c.name}}
+    </td>
+    <td>
+      {{c.surname}}
+    </td>
+    <td>
+      {{c.phone}}
+    </td>
+
+  </tr>
+</table>
+
+
+<br><br>
+
+    <input type="number" class="form-control" [(ngModel)] = 'idtoUpdate' placeholder="Enter Contact ID to update" />
+    <button class="btn btn-info" (click)= 'updateContact()'>Update Contact</button>
+
+<br><br>
+    <button class="btn btn-danger" [routerLink]="['/home']" routerLinkActive="router-link-active" > Go Back</button>
+<router-outlet></router-outlet>
